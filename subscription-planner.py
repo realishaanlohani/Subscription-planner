@@ -1,5 +1,5 @@
 class Account:
-    def __init__(self, name,):
+    def __init__(self, name):
         self.username = name
         sub_list = []
         print("Welcome to the Subcription manager application! We allow you to organise, edit and\n enquire your subscriptions in the easiest way possible!")
@@ -13,5 +13,7 @@ class Account:
                 
         except:
             print("You have entered an invalid. Please try again!")
-
+    def get_username():
+        super.__init__()
+        
 sample_account = Account("Ishaan Lohani")
